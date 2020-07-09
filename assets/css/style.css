@@ -3,3 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/*Section contact-form*/
+/*Background*/
+#contact-form {
+  background: url(../images/bg-contact-form.png) center border-box;
+  background-size: cover;
+}
+/*end Section contact-form*/
