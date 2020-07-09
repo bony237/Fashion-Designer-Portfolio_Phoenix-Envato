@@ -16,3 +16,6 @@ This is a sample of what we expect all FEs to work with, we won't approve if the
 
 ## Testing
 - You would need to set up your repository with netlify and submit the live link and github repository link for approval
+
+## Figma link
+- https://www.figma.com/file/skqAWL0Fh0jPTQIbztOkof/Untitled
