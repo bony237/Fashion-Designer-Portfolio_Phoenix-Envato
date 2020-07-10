@@ -24,8 +24,8 @@
 /*Section contact-form*/
 /*Background*/
 #contact-form {
-  background: url("../images/bg-contact-form.png") center border-box;
-  background-size: cover;
+  background: url("../images/bg-contact-form.png") center no-repeat border-box;
+  background-size: 100% 100%;
 }
 /*end Section contact-form*/
 
