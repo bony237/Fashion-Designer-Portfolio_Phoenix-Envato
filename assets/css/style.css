@@ -2,12 +2,166 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Roboto;
+}
+
+
+
+
+
+.custom-bg-black {
+  background-color: black;
+}
+
+.custom-bg-pink {
+  background-color: #FF005C;
+}
+
+.custom-color-pink {
+  color: #FF005C;
 }
 
 /*Section contact-form*/
 /*Background*/
 #contact-form {
-  background: url(../images/bg-contact-form.png) center border-box;
+  background: url("../images/bg-contact-form.png") center border-box;
   background-size: cover;
 }
 /*end Section contact-form*/
+
+/*Section collection*/
+/*rounded border of each block*/
+#collection .custom-rounded {
+  border-radius: 15px;
+}
+
+/*positionning of singular icon-image in all blocks*/
+#collection .icon-place div {
+  width: 100%;
+  padding-top: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 4;
+}
+
+/*Background icon-image block flare-hats*/
+#collection #flare-hats_block .icon-place div {
+  background: url("../images/flare-hats.png") center no-repeat border-box;
+  background-size: cover;
+}
+
+/*Background icon-image block weddings-gowns*/
+#collection #weddings-gowns_block .icon-place div {
+  background: url("../images/weddings-gowns.png") center no-repeat border-box;
+  background-size: contain;
+}
+
+/*Background icon-image block casual-wears*/
+#collection #casual-wears_block .icon-place div {
+  background: url("../images/casual-wears.png") center no-repeat border-box;
+  background-size: contain;
+}
+
+
+
+/*positionning of logo in each block*/
+#collection .logo-black {
+  background: url("../images/logo-black.png") center no-repeat border-box;
+  background-size: contain;
+
+  top: 0;
+  right: 0;
+}
+
+#collection .logo-pink {
+  background: url("../images/logo-pink.png") center no-repeat border-box;
+  background-size: contain;
+
+  top: 0;
+  right: 0;
+}
+/*end Section collection*/
+
+/*Debug border*/
+.border-debug1 {
+  border: dashed green 3px;
+}
+
+.border-debug2 {
+  border: dotted red 3px;
+}
+
+.border-debug3 {
+  border: solid blue 3px;
+}
+/*end Debug border*/
+
+
+
+/*Responsive file*/
+/* Extra small devices (portrait phones, less than 576px) */
+
+
+@media (max-width: 575.98px) {
+  html {
+    font-size: xx-small;
+  }
+
+  /*Section collection*/
+  /*positionning of singular icon-image in all blocks*/
+  .icon-place {
+    width: 35%;
+  }
+
+  #flare-hats_block {
+    margin-top: 10%;
+  }
+
+  #weddings-gowns_block {
+    
+    margin-top: 30%;
+    margin-bottom: 30%;
+  }
+  /*end section collection*/
+
+  @media (max-width: 375.98px) {
+    /*Section collection*/
+    /*positionning of singular icon-image in all blocks*/
+    #collection .icon-place div {
+      bottom: 15px;
+    }
+  
+    #flare-hats_block {
+      margin-top: -10%;
+    }
+    /*end section collection*/
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  html {
+    font-size: x-small;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+}
