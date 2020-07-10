@@ -125,6 +125,46 @@
 }
 /*end Section About*/
 
+/*Section Projects*/
+/*background od each project block*/
+#projects #photo-project1 {
+  background: url("../images/photo-project1.png") no-repeat center border-box;
+  background-size: contain;
+  padding-top: 100%;
+}
+
+
+#projects #photo-project2 {
+  background: url("../images/photo-project2.png") no-repeat center border-box;
+  background-size: contain;
+  padding-top: 100%;
+}
+
+#projects #photo-project3 {
+  background: url("../images/photo-project3.png") no-repeat center border-box;
+  background-size: contain;
+  padding-top: 100%;
+}
+
+#projects #photo-project4 {
+  background: url("../images/photo-project4.png") no-repeat center border-box;
+  background-size: contain;
+  padding-top: 100%;
+}
+
+#projects #photo-project5 {
+  background: url("../images/photo-project5.png") no-repeat center border-box;
+  background-size: contain;
+  padding-top: 100%;
+}
+
+#projects #photo-project6 {
+  background: url("../images/photo-project6.png") no-repeat center border-box;
+  background-size: contain;
+  padding-top: 100%;
+}
+/*end Section Projects*/
+
 /*Debug border*/
 .border-debug1 {
   border: dashed green 3px;
