@@ -95,6 +95,36 @@
 }
 /*end Section reviews*/
 
+/*Section About*/
+#about #photo-glenn-core {
+  padding-top: 100%;
+  background: url("../images/photo-glenn-core.png") center no-repeat border-box;
+  background-size: contain;
+}
+
+#about .custom-border-left {
+  border-left: solid 3px #FF005C;
+}
+
+#about #icon-facebook {
+  background: url("../images/facebook.png") no-repeat center border-box;
+  background-size: contain;
+  padding-top: 100%;
+}
+
+#about #icon-instagram {
+  background: url("../images/instagram.png") no-repeat center border-box;
+  background-size: contain;
+  padding-top: 100%;
+}
+
+#about #icon-twitter {
+  background: url("../images/twitter.png") no-repeat center border-box;
+  background-size: contain;
+  padding-top: 100%;
+}
+/*end Section About*/
+
 /*Debug border*/
 .border-debug1 {
   border: dashed green 3px;
