@@ -6,7 +6,9 @@
 }
 
 
-
+.custom-rounded {
+  border-radius: 15px;
+}
 
 
 .custom-bg-black {
@@ -30,11 +32,6 @@
 /*end Section contact-form*/
 
 /*Section collection*/
-/*rounded border of each block*/
-#collection .custom-rounded {
-  border-radius: 15px;
-}
-
 /*positionning of singular icon-image in all blocks*/
 #collection .icon-place div {
   width: 100%;
@@ -81,6 +78,22 @@
   right: 0;
 }
 /*end Section collection*/
+
+/*Section reviews*/
+/*Photo reviewer1*/
+#reviews #photo-reviewer1 {
+  padding-bottom: 100%;
+  background: url("../images/photo-reviewer1.png") center no-repeat border-box;
+  background-size: contain;
+}
+
+/*Photo reviewer1*/
+#reviews #photo-reviewer2 {
+  padding-top: 100%;
+  background: url("../images/photo-reviewer2.png") center no-repeat border-box;
+  background-size: contain;
+}
+/*end Section reviews*/
 
 /*Debug border*/
 .border-debug1 {
