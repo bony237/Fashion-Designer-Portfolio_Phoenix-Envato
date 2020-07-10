@@ -165,6 +165,32 @@
 }
 /*end Section Projects*/
 
+/*Section Sketch-projects*/
+/*background of each sketch-project*/
+#sketch-projects #image-sketch-project1 {
+  background: url("../images/image-sketch-project1.png") no-repeat center border-box;
+  background-size: contain;
+  left: 0;
+  top: 5%;
+}
+
+#sketch-projects #image-sketch-project2 {
+  background: url("../images/image-sketch-project2.png") no-repeat center border-box;
+  background-size: contain;
+
+  left: 0;
+  top: 5%;
+}
+
+#sketch-projects #image-sketch-project3 {
+  background: url("../images/image-sketch-project3.png") no-repeat center border-box;
+  background-size: contain;
+
+  left: 0;
+  top: 5%;
+}
+/*end Section Sketch-projects*/
+
 /*Debug border*/
 .border-debug1 {
   border: dashed green 3px;
@@ -207,6 +233,12 @@
   }
   /*end section collection*/
 
+  /*Section*/
+  .group-sketch-projects > div {
+    margin-bottom: 10%;
+  }
+  /*Section*/
+
   @media (max-width: 375.98px) {
     /*Section collection*/
     /*positionning of singular icon-image in all blocks*/
@@ -246,5 +278,7 @@
 @media (min-width: 1200px) {
   html {
     font-size: 15px;
+    max-width: 1400px;
+    margin: auto;
   }
 }
