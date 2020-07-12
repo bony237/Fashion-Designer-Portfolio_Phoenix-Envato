@@ -189,7 +189,45 @@
   left: 0;
   top: 5%;
 }
+
+.custom-bg-sketch1,
+.custom-bg-sketch3 {
+  background-color: #F6F1F1;
+}
+
+.custom-bg-sketch2 {
+  background-color: #F2F2F2;
+}
+
+
 /*end Section Sketch-projects*/
+
+/*Section Home*/
+#home {
+  background: url('../images/bg-home_first.png') right no-repeat border-box;
+  background-size: contain;  
+}
+
+#home #logo {
+  padding-top: 100%;
+  background: url("../images/logo_png.png") top left no-repeat border-box;
+  background-size: contain;
+}
+
+#home .rotate {
+  transform: rotate(-90deg) translateX(50%) translateY(-100%);
+  cursor: pointer;
+
+  left: 0;
+  bottom: 8%;
+}
+
+#home .custom-bg-circle {
+  padding-top: 50%;
+  top: -13%;
+  right: -13%;
+}
+/*end Section Home*/
 
 /*Debug border*/
 .border-debug1 {
@@ -233,11 +271,26 @@
   }
   /*end section collection*/
 
-  /*Section*/
+  /*Section Sketch-projects*/
   .group-sketch-projects > div {
     margin-bottom: 10%;
   }
   /*Section*/
+
+  /*Section Home*/
+  #home .rotate {
+    left: 2%;
+  }
+
+  #home .custom-bg-circle {
+    padding-top: 50%;
+    top: -18%;
+    right: -18%;
+
+    background: url("../images/menu-bar.png") 30% 80% no-repeat;
+    background-size: 30%;
+  }
+  /*end Section Home*/
 
   @media (max-width: 375.98px) {
     /*Section collection*/
@@ -272,6 +325,12 @@
   html {
     font-size: 15px;
   }
+
+  /*Section Home*/
+  #home .rotate {
+    left: -0.7%;
+  }
+  /*end Section Home*/
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
@@ -281,4 +340,10 @@
     max-width: 1400px;
     margin: auto;
   }
+
+  /*Section Home*/
+  #home .rotate {
+    left: -0.9%;
+  }
+  /*end Section Home*/
 }
