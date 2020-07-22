@@ -46,10 +46,10 @@
         </div>
       </div>
 
-      <div class="col-sm-7 col-8 pt-2 pb-1 pb-sm-5 mb-0">
-        <div class="d-none d-sm-flex text-dark justify-content-around h5 font-weight-bold">
+      <div class="col-sm-7 col-8 pt-2 pb-1 pb-sm-5 mb-0 mr-4">
+        <div class="d-none d-sm-flex mr-5 text-dark justify-content-around h5 font-weight-bold">
           <a class="text-reset" href="#about">ABOUT</a>
-          <a class="text-reset" href="#blog">BLOG</a>
+          <a class="text-reset" href="#reviews">BLOG</a>
           <a class="text-reset" href="#projects">PROJECTS</a>
         </div>
 
@@ -68,25 +68,27 @@
         </div>
       </div>
 
-      <div class="col-3 pt-2 pb-5 position-relative dropdown">
-        <div class="text-white h5 ml-xl-5 ml-md-4 ml-sm-3 d-none d-sm-block">
-          <a href="#footer" class="font-weight-bold text-reset">CONTACT</a>
+      <div class="col-3 pt-2 pb-5 position-relative pl-0 ml-xl-5 ml-md-4 ml-sm-0">
+        <div class="text-white h5 d-none d-sm-block">
+          <a href="#footer" class="font-weight-bold text-reset position-relative">CONTACT</a>
         </div>
 
-        <div class="d-none d-sm-block position-absolute btn bg-white col-6 rounded-circle custom-bg-circle"></div>
 
-        <div class="d-sm-none position-absolute btn bg-white col-6 pr-4 rounded-circle custom-bg-circle"
-              type="button" id="menu-sm"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"
-              >
-          
-          <ul class="dropdown-menu mr-5 bg-transparent text-white" aria-labelledby="menu-sm">
-            <li class="pb-3 font-weight-bold"><a class="text-reset" href="#about" >ABOUT</a></li>
-            <li class="pb-3 font-weight-bold"><a class="text-reset" href="#blog" >BLOG</a></li>
-            <li class="pb-3 font-weight-bold"><a class="text-reset" href="#projects" >PROJECTS</a></li>
-            <li class="pb-3 font-weight-bold"><a class="text-reset" href="#footer">CONTACT</a></li>
-          </ul>
+        <div class="d-none d-sm-block position-absolute btn bg-white custom-bg-circle">
         </div>
+
+        <label for="btn-menu-sm" class="d-sm-none position-absolute btn bg-white custom-bg-circle">
+        </label>
+        <input type="checkbox" id="btn-menu-sm" class="d-none">
+
+        
+        <div id="menu-sm" class="bg-transparent d-none text-white position-absolute" style="top: 20%; left: 48%;">
+          <a class="text-reset d-block h4 my-3" href="#about" >ABOUT</a>
+          <a class="text-reset d-block h4 my-3" href="#reviews" >BLOG</a>
+          <a class="text-reset d-block h4 my-3" href="#projects" >PROJECTS</a>
+          <a class="text-reset d-block h4 my-3" href="#footer">CONTACT</a>
+        </div>
+        
 
         
 
@@ -114,7 +116,7 @@
             </div>
           </div>
 
-          <div class="bg-white p-3 col-5">
+          <div class="bg-white p-5 p-sm-3 col-5 description">
             <p class="mt-3">
               <span class="font-weight-bold">Flat Fashion: </span> <br>
               Summer Dress
@@ -144,7 +146,7 @@
             </div>
           </div>
 
-          <div class="bg-white p-3 col-5">
+          <div class="bg-white p-5 p-sm-3 col-5 description">
             <p class="mt-3">
               <span class="font-weight-bold">Flat Fashion: </span> <br>
               Summer Dress
@@ -174,7 +176,7 @@
             </div>
           </div>
 
-          <div class="bg-white p-3 col col-sm-5">
+          <div class="bg-white p-5 p-sm-3 col-5 description">
             <p class="mt-3">
               <span class="font-weight-bold">Flat Fashion: </span> <br>
               Summer Dress
@@ -655,6 +657,18 @@
     <script src="./assets/js/bootstrap/bootstrap.min.js"></script>
     <!-- Custom JS -->
     <script src="./assets/js/your-js-filename.js"></script>
+
+    <script>
+      var checkMenu = document.querySelector("#btn-menu-sm");
+      checkMenu.addEventListener('change', function() {
+        document.querySelector('#menu-sm').classList.toggle('d-none');
+        //document.querySelector('#menu-sm').classList.toggle('d-block');
+      });
+
+      /*checkMenu.addEventListener('blur', function() {
+        document.querySelector('#menu-sm').classList.add('d-none');
+      });*/
+    </script>
 
     <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>-->
     <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>-->

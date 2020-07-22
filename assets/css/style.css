@@ -226,9 +226,12 @@
 }
 
 #home .custom-bg-circle {
-  padding-top: 50%;
-  top: -13%;
-  right: -13%;
+  width: 40%;
+  padding-top: 40%;
+  top: 0;
+  right: 0;
+
+  border-radius: 0 0 0 10em;
 }
 /*end Section Home*/
 
@@ -276,7 +279,7 @@
 
   /*Section Sketch-projects*/
   .group-sketch-projects > div {
-    margin-bottom: 10%;
+    font-size: x-small;
   }
   /*end Section Sketch-projects*/
 
@@ -286,12 +289,13 @@
   }
 
   #home .custom-bg-circle {
-    padding-top: 50%;
-    top: -18%;
-    right: -18%;
+    width: 25%;
+    padding-top: 25%;
 
-    background: url("../images/menu-bar.png") 30% 80% no-repeat;
-    background-size: 30%;
+    border-radius: 0 0 0 10em;
+
+    background: url("../images/menu-bar.png") 60% 45% no-repeat;
+    background-size: 45%;
   }
   /*end Section Home*/
 
@@ -308,9 +312,26 @@
     /*end section collection*/
 
     /*Section Sketch-projects*/
-  .group-sketch-projects > div {
-    width: auto;
-  }
+    .group-sketch-projects,
+    .group-sketch-projects .description {
+      padding-left: 5px!important;
+      padding-right: 5px!important;
+    }
+
+    .group-sketch-projects > div {
+      width: auto;
+      margin-bottom: 30px;
+    }
+
+    #sketch-projects #image-sketch-project1,
+    #sketch-projects #image-sketch-project3 {
+      background-position: 0% center;
+    }
+
+    #sketch-projects #image-sketch-project2 {
+      background-position: top center;
+    }
+
   /*end Section Sketch-projects*/
   }
 
