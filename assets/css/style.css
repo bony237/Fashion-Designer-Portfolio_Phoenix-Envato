@@ -168,26 +168,23 @@
 /*Section Sketch-projects*/
 /*background of each sketch-project*/
 #sketch-projects #image-sketch-project1 {
-  background: url("../images/image-sketch-project1.png") no-repeat center border-box;
-  background-size: contain;
+  background: url("../images/image-sketch-project1.png") no-repeat center bottom/93% border-box;
   left: 0;
-  top: 5%;
+  bottom: -80px;
 }
 
 #sketch-projects #image-sketch-project2 {
-  background: url("../images/image-sketch-project2.png") no-repeat center border-box;
-  background-size: contain;
+  background: url("../images/image-sketch-project2.png") no-repeat center bottom/87% border-box;
 
   left: 0;
-  top: 5%;
+  bottom: -80px;
 }
 
 #sketch-projects #image-sketch-project3 {
-  background: url("../images/image-sketch-project3.png") no-repeat center border-box;
-  background-size: contain;
+  background: url("../images/image-sketch-project3.png") no-repeat center 80%/100% border-box;
 
   left: 0;
-  top: 5%;
+  bottom: -80px;
 }
 
 .custom-bg-sketch1,
@@ -199,6 +196,12 @@
   background-color: #F2F2F2;
 }
 
+/*Section Sketch-projects*/
+.group-sketch-projects > div {
+  width: 388px;
+  margin-bottom: 90px;
+}
+/*end Section Sketch-projects*/
 
 /*end Section Sketch-projects*/
 
@@ -275,7 +278,7 @@
   .group-sketch-projects > div {
     margin-bottom: 10%;
   }
-  /*Section*/
+  /*end Section Sketch-projects*/
 
   /*Section Home*/
   #home .rotate {
@@ -303,7 +306,22 @@
       margin-top: -10%;
     }
     /*end section collection*/
+
+    /*Section Sketch-projects*/
+  .group-sketch-projects > div {
+    width: auto;
   }
+  /*end Section Sketch-projects*/
+  }
+
+  /*Section sketch-projects*/
+  #sketch-projects #image-sketch-project1,
+  #sketch-projects #image-sketch-project2,
+  #sketch-projects #image-sketch-project3 {
+    background-size: contain;
+  }
+  
+  /*end Section sketch-projects*/
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -311,6 +329,15 @@
   html {
     font-size: x-small;
   }
+
+  /*Section sketch-projects*/
+  #sketch-projects #image-sketch-project1,
+  #sketch-projects #image-sketch-project2,
+  #sketch-projects #image-sketch-project3 {
+    background-size: contain;
+  }
+  
+  /*end Section sketch-projects*/
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -318,6 +345,15 @@
   html {
     font-size: 12px;
   }
+
+  /*Section sketch-projects*/
+  #sketch-projects #image-sketch-project1,
+  #sketch-projects #image-sketch-project2,
+  #sketch-projects #image-sketch-project3 {
+    background-size: contain;
+  }
+  
+  /*end Section sketch-projects*/
 }
 
 /* Large devices (desktops, less than 1200px) */
