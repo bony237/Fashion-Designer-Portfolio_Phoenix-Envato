@@ -35,6 +35,14 @@ html, body {
   align-items: center;
 }
 
+.bi-arrow-right {
+  transition: ease-in-out 300ms;
+}
+
+.bi-arrow-right:hover {
+  transform: translateX(1.2em);
+  
+}
 
 /*Section contact-form*/
 /*Background*/
