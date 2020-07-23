@@ -135,7 +135,7 @@
 /*end Section About*/
 
 /*Section Projects*/
-/*background od each project block*/
+/*background photo each project block*/
 #projects #photo-project1 {
   background: url("../images/photo-project1.png") no-repeat center border-box;
   background-size: contain;
@@ -145,6 +145,8 @@
 
 #projects #photo-project2 {
   background: url("../images/photo-project2.png") no-repeat center border-box;
+  border-radius: 50%;
+  background-color: white;
   background-size: contain;
   padding-top: 100%;
 }
@@ -171,6 +173,33 @@
   background: url("../images/photo-project6.png") no-repeat center border-box;
   background-size: contain;
   padding-top: 100%;
+}
+
+/*#projects #calque-projects {
+  opacity: 0;
+  z-index: 3;
+  background-color: #1f010c;
+  transition: opacity 0.5sec;
+}
+
+#projects #calque-projects:hover {
+  
+  opacity: 0.3;
+}*/
+
+#projects .single-project {
+  border-radius: 10em;
+  margin-bottom: 2em;
+  transition: 1sec;
+  
+}
+
+
+#projects .single-project:hover {
+  z-index: 4;
+  background-color: #F6F1F1;
+  box-shadow: 1px 1px 8px #dfdede;
+  transform: scale(1.1);
 }
 /*end Section Projects*/
 
