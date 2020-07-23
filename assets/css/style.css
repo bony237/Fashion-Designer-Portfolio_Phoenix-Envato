@@ -5,6 +5,10 @@
   font-family: Roboto;
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
 
 .custom-rounded {
   border-radius: 15px;
