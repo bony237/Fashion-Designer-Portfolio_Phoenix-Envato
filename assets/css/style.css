@@ -38,6 +38,93 @@
   background: url("../images/bg-contact-form.png") center no-repeat border-box;
   background-size: 100% 100%;
 }
+
+#submit-form-button {
+  transform-origin: center;
+  animation: ease-in infinite bouge-bcp;
+  animation-duration: 7s;
+}
+
+#submit-form-button:hover {
+  animation-play-state: paused;
+}
+
+@keyframes bouge-bcp {
+  0% {
+    transform: rotate(0deg);
+  }
+  2% {
+    transform: rotate(10deg);
+  }
+  4% {
+    transform: rotate(-10deg);
+  }
+  6% {
+    transform: rotate(10deg);
+  }
+  8% {
+    transform: rotate(-10deg);
+  }
+  10% {
+    transform: rotate(10deg);
+  }
+
+  12% {
+    transform: rotate(-10deg);
+  }
+  14% {
+    transform: rotate(10deg);
+  }
+  16% {
+    transform: rotate(-10deg);
+  }
+  18% {
+    transform: rotate(10deg);
+  }
+  20% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  52% {
+    transform: rotate(10deg);
+  }
+  54% {
+    transform: rotate(-10deg);
+  }
+  56% {
+    transform: rotate(10deg);
+  }
+  58% {
+    transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(10deg);
+  }
+
+  62% {
+    transform: rotate(-10deg);
+  }
+  64% {
+    transform: rotate(10deg);
+  }
+  66% {
+    transform: rotate(-10deg);
+  }
+  68% {
+    transform: rotate(10deg);
+  }
+  70% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
 /*end Section contact-form*/
 
 /*Section collection*/
