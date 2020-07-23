@@ -1,8 +1,13 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("./Roboto-Regular.ttf") format('truetype');
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Roboto;
+  font-family: 'Roboto';
 }
 
 html, body {
@@ -47,7 +52,7 @@ html, body {
 /*Section contact-form*/
 /*Background*/
 #contact-form {
-  background: url("../images/bg-contact-form.png") center no-repeat border-box;
+  background: url("https://via.placeholder.com/100?text=+") center no-repeat border-box;
   background-size: 100% 100%;
 }
 
@@ -151,19 +156,19 @@ html, body {
 
 /*Background icon-image block flare-hats*/
 #collection #flare-hats_block .icon-place div {
-  background: url("../images/flare-hats.png") center no-repeat border-box;
+  background: url("https://via.placeholder.com/100?text=+") center no-repeat border-box;
   background-size: cover;
 }
 
 /*Background icon-image block weddings-gowns*/
 #collection #weddings-gowns_block .icon-place div {
-  background: url("../images/weddings-gowns.png") center no-repeat border-box;
+  background: url("https://via.placeholder.com/100?text=+") center no-repeat border-box;
   background-size: contain;
 }
 
 /*Background icon-image block casual-wears*/
 #collection #casual-wears_block .icon-place div {
-  background: url("../images/casual-wears.png") center no-repeat border-box;
+  background: url("https://via.placeholder.com/100?text=+") center no-repeat border-box;
   background-size: contain;
 }
 
@@ -171,7 +176,7 @@ html, body {
 
 /*positionning of logo in each block*/
 #collection .logo-black {
-  background: url("../images/logo-black.png") center no-repeat border-box;
+  background: url("https://via.placeholder.com/8?text=+") center no-repeat border-box;
   background-size: contain;
 
   top: 0;
@@ -179,7 +184,7 @@ html, body {
 }
 
 #collection .logo-pink {
-  background: url("../images/logo-pink.png") center no-repeat border-box;
+  background: url("https://via.placeholder.com/100?text=+") center no-repeat border-box;
   background-size: contain;
 
   top: 0;
@@ -191,14 +196,14 @@ html, body {
 /*Photo reviewer1*/
 #reviews #photo-reviewer1 {
   padding-bottom: 100%;
-  background: url("../images/photo-reviewer1.png") center no-repeat border-box;
+  background: url("https://via.placeholder.com/100?text=+") center no-repeat border-box;
   background-size: contain;
 }
 
 /*Photo reviewer1*/
 #reviews #photo-reviewer2 {
   padding-top: 100%;
-  background: url("../images/photo-reviewer2.png") center no-repeat border-box;
+  background: url("https://via.placeholder.com/100?text=+") center no-repeat border-box;
   background-size: contain;
 }
 /*end Section reviews*/
@@ -206,7 +211,7 @@ html, body {
 /*Section About*/
 #about #photo-glenn-core {
   padding-top: 100%;
-  background: url("../images/photo-glenn-core.png") center no-repeat border-box;
+  background: url("https://via.placeholder.com/100?text=+") center no-repeat border-box;
   background-size: contain;
 }
 
@@ -214,36 +219,19 @@ html, body {
   border-left: solid 3px #FF005C;
 }
 
-#about #icon-facebook {
-  background: url("../images/facebook.png") no-repeat center border-box;
-  background-size: contain;
-  padding-top: 100%;
-}
-
-#about #icon-instagram {
-  background: url("../images/instagram.png") no-repeat center border-box;
-  background-size: contain;
-  padding-top: 100%;
-}
-
-#about #icon-twitter {
-  background: url("../images/twitter.png") no-repeat center border-box;
-  background-size: contain;
-  padding-top: 100%;
-}
 /*end Section About*/
 
 /*Section Projects*/
 /*background photo each project block*/
 #projects #photo-project1 {
-  background: url("../images/photo-project1.png") no-repeat center border-box;
+  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
   background-size: contain;
   padding-top: 100%;
 }
 
 
 #projects #photo-project2 {
-  background: url("../images/photo-project2.png") no-repeat center border-box;
+  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
   border-radius: 50%;
   background-color: white;
   background-size: contain;
@@ -251,25 +239,25 @@ html, body {
 }
 
 #projects #photo-project3 {
-  background: url("../images/photo-project3.png") no-repeat center border-box;
+  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
   background-size: contain;
   padding-top: 100%;
 }
 
 #projects #photo-project4 {
-  background: url("../images/photo-project4.png") no-repeat center border-box;
+  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
   background-size: contain;
   padding-top: 100%;
 }
 
 #projects #photo-project5 {
-  background: url("../images/photo-project5.png") no-repeat center border-box;
+  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
   background-size: contain;
   padding-top: 100%;
 }
 
 #projects #photo-project6 {
-  background: url("../images/photo-project6.png") no-repeat center border-box;
+  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
   background-size: contain;
   padding-top: 100%;
 }
@@ -305,20 +293,21 @@ html, body {
 /*Section Sketch-projects*/
 /*background of each sketch-project*/
 #sketch-projects #image-sketch-project1 {
-  background: url("../images/image-sketch-project1.png") no-repeat center bottom/93% border-box;
+  
+  background: url("https://via.placeholder.com/100?text=+") no-repeat center bottom/cover border-box;
   left: 0;
   bottom: -80px;
 }
 
 #sketch-projects #image-sketch-project2 {
-  background: url("../images/image-sketch-project2.png") no-repeat center bottom/87% border-box;
+  background: url("https://via.placeholder.com/100?text=+") no-repeat center bottom/cover border-box;
 
   left: 0;
   bottom: -80px;
 }
 
 #sketch-projects #image-sketch-project3 {
-  background: url("../images/image-sketch-project3.png") no-repeat center 80%/100% border-box;
+  background: url("https://via.placeholder.com/100?text=+") no-repeat center bottom/cover border-box;
 
   left: 0;
   bottom: -80px;
@@ -344,13 +333,13 @@ html, body {
 
 /*Section Home*/
 #home {
-  background: url('../images/bg-home_first.png') right no-repeat border-box;
+  background: url('https://via.placeholder.com/100?text=+') right no-repeat border-box;
   background-size: contain;  
 }
 
 #home #logo {
   padding-top: 100%;
-  background: url("../images/logo_png.png") top left no-repeat border-box;
+  background: url("https://via.placeholder.com/100?text=+") top left no-repeat border-box;
   background-size: contain;
 
   left: 8%;
