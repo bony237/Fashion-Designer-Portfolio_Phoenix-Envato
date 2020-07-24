@@ -61,7 +61,7 @@ html, body {
 /*Section contact-form*/
 /*Background*/
 #contact-form {
-  background: url("https://via.placeholder.com/100?text=+") center no-repeat border-box;
+  background: url("../images/bg-contact-form.png") center no-repeat border-box;
   background-size: 100% 100%;
 }
 
@@ -205,14 +205,14 @@ html, body {
 /*Photo reviewer1*/
 #reviews #photo-reviewer1 {
   padding-bottom: 100%;
-  background: url("https://via.placeholder.com/100?text=+") center no-repeat border-box;
+  background: url("../images/photo-reviewer1.png") center no-repeat border-box;
   background-size: contain;
 }
 
 /*Photo reviewer1*/
 #reviews #photo-reviewer2 {
   padding-top: 100%;
-  background: url("https://via.placeholder.com/100?text=+") center no-repeat border-box;
+  background: url("../images/photo-reviewer2.png") center no-repeat border-box;
   background-size: contain;
 }
 /*end Section reviews*/
@@ -220,7 +220,7 @@ html, body {
 /*Section About*/
 #about #photo-glenn-core {
   padding-top: 100%;
-  background: url("https://via.placeholder.com/100?text=+") center no-repeat border-box;
+  background: url("../images/photo-glenn-core.png") center no-repeat border-box;
   background-size: contain;
 }
 
@@ -233,14 +233,14 @@ html, body {
 /*Section Projects*/
 /*background photo each project block*/
 #projects #photo-project1 {
-  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
+  background: url("../images/photo-project1.png") no-repeat center border-box;
   background-size: contain;
   padding-top: 100%;
 }
 
 
 #projects #photo-project2 {
-  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
+  background: url("../images/photo-project2.png") no-repeat center border-box;
   border-radius: 50%;
   background-color: white;
   background-size: contain;
@@ -248,25 +248,25 @@ html, body {
 }
 
 #projects #photo-project3 {
-  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
+  background: url("../images/photo-project3.png") no-repeat center border-box;
   background-size: contain;
   padding-top: 100%;
 }
 
 #projects #photo-project4 {
-  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
+  background: url("../images/photo-project4.png") no-repeat center border-box;
   background-size: contain;
   padding-top: 100%;
 }
 
 #projects #photo-project5 {
-  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
+  background: url("../images/photo-project5.png") no-repeat center border-box;
   background-size: contain;
   padding-top: 100%;
 }
 
 #projects #photo-project6 {
-  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
+  background: url("../images/photo-project6.png") no-repeat center border-box;
   background-size: contain;
   padding-top: 100%;
 }
@@ -341,7 +341,7 @@ html, body {
 
 /*Section Home*/
 #home {
-  background: url('https://via.placeholder.com/100?text=+') right no-repeat border-box;
+  background: url('../images/bg-home_first.png') right no-repeat border-box;
   background-size: contain;  
 }
 
