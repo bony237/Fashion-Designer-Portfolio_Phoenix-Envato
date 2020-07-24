@@ -1,8 +1,13 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("./Roboto-Regular.ttf") format('truetype');
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Roboto;
+  font-family: 'Roboto';
 }
 
 html, body {
@@ -35,19 +40,28 @@ html, body {
   align-items: center;
 }
 
-.bi-arrow-right {
-  transition: ease-in-out 300ms;
+.bi-arrow-right, #arrow-collection {
+  cursor: pointer;
+  animation: ease-in-out 500ms infinite alternate va_vient;
 }
 
-.bi-arrow-right:hover {
-  transform: translateX(1.2em);
-  
+.bi-arrow-right:hover, #arrow-collection:hover {
+  animation-play-state: paused; 
+}
+
+@keyframes va_vient {
+  from {
+
+  }
+  to {
+    transform: translateX(1em);
+  }
 }
 
 /*Section contact-form*/
 /*Background*/
 #contact-form {
-  background: url("../images/bg-contact-form.png") center no-repeat border-box;
+  background: url("https://via.placeholder.com/100?text=+") center no-repeat border-box;
   background-size: 100% 100%;
 }
 
@@ -58,7 +72,7 @@ html, body {
 }
 
 #submit-form-button:hover {
-  animation-play-state: paused;
+  animation-play-state: initial;
 }
 
 @keyframes bouge-bcp {
@@ -191,14 +205,14 @@ html, body {
 /*Photo reviewer1*/
 #reviews #photo-reviewer1 {
   padding-bottom: 100%;
-  background: url("../images/photo-reviewer1.png") center no-repeat border-box;
+  background: url("https://via.placeholder.com/100?text=+") center no-repeat border-box;
   background-size: contain;
 }
 
 /*Photo reviewer1*/
 #reviews #photo-reviewer2 {
   padding-top: 100%;
-  background: url("../images/photo-reviewer2.png") center no-repeat border-box;
+  background: url("https://via.placeholder.com/100?text=+") center no-repeat border-box;
   background-size: contain;
 }
 /*end Section reviews*/
@@ -206,7 +220,7 @@ html, body {
 /*Section About*/
 #about #photo-glenn-core {
   padding-top: 100%;
-  background: url("../images/photo-glenn-core.png") center no-repeat border-box;
+  background: url("https://via.placeholder.com/100?text=+") center no-repeat border-box;
   background-size: contain;
 }
 
@@ -214,36 +228,19 @@ html, body {
   border-left: solid 3px #FF005C;
 }
 
-#about #icon-facebook {
-  background: url("../images/facebook.png") no-repeat center border-box;
-  background-size: contain;
-  padding-top: 100%;
-}
-
-#about #icon-instagram {
-  background: url("../images/instagram.png") no-repeat center border-box;
-  background-size: contain;
-  padding-top: 100%;
-}
-
-#about #icon-twitter {
-  background: url("../images/twitter.png") no-repeat center border-box;
-  background-size: contain;
-  padding-top: 100%;
-}
 /*end Section About*/
 
 /*Section Projects*/
 /*background photo each project block*/
 #projects #photo-project1 {
-  background: url("../images/photo-project1.png") no-repeat center border-box;
+  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
   background-size: contain;
   padding-top: 100%;
 }
 
 
 #projects #photo-project2 {
-  background: url("../images/photo-project2.png") no-repeat center border-box;
+  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
   border-radius: 50%;
   background-color: white;
   background-size: contain;
@@ -251,25 +248,25 @@ html, body {
 }
 
 #projects #photo-project3 {
-  background: url("../images/photo-project3.png") no-repeat center border-box;
+  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
   background-size: contain;
   padding-top: 100%;
 }
 
 #projects #photo-project4 {
-  background: url("../images/photo-project4.png") no-repeat center border-box;
+  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
   background-size: contain;
   padding-top: 100%;
 }
 
 #projects #photo-project5 {
-  background: url("../images/photo-project5.png") no-repeat center border-box;
+  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
   background-size: contain;
   padding-top: 100%;
 }
 
 #projects #photo-project6 {
-  background: url("../images/photo-project6.png") no-repeat center border-box;
+  background: url("https://via.placeholder.com/100?text=+") no-repeat center border-box;
   background-size: contain;
   padding-top: 100%;
 }
@@ -344,7 +341,7 @@ html, body {
 
 /*Section Home*/
 #home {
-  background: url('../images/bg-home_first.png') right no-repeat border-box;
+  background: url('https://via.placeholder.com/100?text=+') right no-repeat border-box;
   background-size: contain;  
 }
 
@@ -417,7 +414,7 @@ html, body {
   /*end section collection*/
 
   /*Section Sketch-projects*/
-  .group-sketch-projects > div {
+  .group-sketch-projects > div, .group-sketch-projects + div, #about p {
     font-size: x-small;
   }
   /*end Section Sketch-projects*/
@@ -437,6 +434,24 @@ html, body {
     background-size: 45%;
   }
   /*end Section Home*/
+
+  /*Section Collection*/
+  #arrow-collection {
+    animation: ease-in-out 500ms infinite alternate va_vient-sm;
+  }
+  
+  #arrow-collection:hover {
+    animation-play-state: paused; 
+  }
+  
+  @keyframes va_vient-sm {
+    from {
+  
+    }
+    to {
+      transform: translateY(1em);
+    }
+  }
 
   @media (max-width: 375.98px) {
     /*Section collection*/
@@ -480,7 +495,6 @@ html, body {
   #sketch-projects #image-sketch-project3 {
     background-size: contain;
   }
-  
   /*end Section sketch-projects*/
 }
 
