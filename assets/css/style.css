@@ -547,7 +547,7 @@ html, body {
 @media (min-width: 1200px) {
   html {
     font-size: 15px;
-    max-width: 1440px;
+    /*max-width: 1440px;*/
     margin: auto;
   }
 
@@ -556,4 +556,21 @@ html, body {
     left: -0.9%;
   }
   /*end Section Home*/
+
+  @media (min-width: 1441px) {
+    html {
+      font-size: 1.3vw;
+    }
+
+    .group-sketch-projects > div {
+      width: 33%;
+      font-size: 1vw;
+    }
+
+    #sketch-projects #image-sketch-project1,
+    #sketch-projects #image-sketch-project2,
+    #sketch-projects #image-sketch-project3 {
+      bottom: auto;
+    }
+  }
 }
