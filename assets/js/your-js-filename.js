@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function(){
       var marginTopCustom = parseInt(document.querySelector('#collection-group-blocks-gt-sm .icon-place div').offsetHeight) - parseInt(document.querySelector('#collection-group-blocks-gt-sm .icon-place').offsetHeight);
     }
     else {
-      document.querySelector('#collection-group-blocks-gt-sm').style.width = '100%';
-      document.querySelector('#collection-group-blocks-gt-sm').style.margin = 'auto';
+      
+      //document.querySelector('#collection-group-blocks-gt-sm').style.margin = 'auto';*/
       //swiperCollection_gt_sm.spaceBetween = 0;
       var marginTopCustom = parseInt(document.querySelector('#collection-group-blocks-gt-sm .icon-place div').offsetHeight) - 30;
     }
