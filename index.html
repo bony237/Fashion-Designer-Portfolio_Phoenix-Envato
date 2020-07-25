@@ -15,11 +15,10 @@
     <title>Fashion Designer Portfolio</title>
     <link rel="shortcut icon" href="./assets/images/logo_png.png" type="image/x-icon" />
     <link rel="apple-touch-icon-precomposed" href="" />
-    <!-- Google fonts -->
-    <!--<link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />-->
+    
+    <!-- swiper css -->
+    <link rel="stylesheet" href="./assets/css/swiper/swiper.css">
+    
     <!--Font awesome-->
     <link
       rel="stylesheet" 
@@ -279,7 +278,7 @@
 
 
     <!--Section Collection-->
-    <div id="collection" class="">
+    <div id="collection" class="position-relative">
       <div class="text-center">
         <h2 class="my-4 mx-auto p-4 custom-bg-black text-white d-inline-block"
             data-aos="flip-down">Glen Core's Collection</h2>
@@ -289,107 +288,116 @@
         </div>
       </div>
 
-      <div class="custom-bg-black my-5 pt-5 pb-3 pb-sm-0 d-flex flex-column flex-sm-row justify-content-between" id="collection-group-blocks">
-        <div class="my-5 pt-5 px-5 px-sm-0  ml-4 d-flex flex-column flex-sm-row">
-          <!--Flare Hats collection-block-->
-          <div class="mx-5 m-sm-3 position-relative bg-white custom-rounded" id="flare-hats_block" data-aos="flip-right">
-            <div class="col-sm-7 position-relative mx-auto p-5 icon-place">
-              <div class="position-absolute rounded-circle">                                         <!--css manipulation-->
-                
+      <div class="custom-bg-black my-5 pt-5 pb-3 pb-sm-0 d-flex flex-column align-items-center flex-sm-row justify-content-center">
+        <!--swiper up to sm-break | px-5 px-sm-0  ml-4 (wrapper) | mx-5 m-sm-3 (each block) -->
+        <div class="swiper-container-gt-sm ml-5 ml-sm-4 pt-5 mb-5 overflow-hidden" style="width: 90%;" id="collection-group-blocks-gt-sm">
+          <div class="swiper-wrapper" style="height: auto;">
+            <!--Flare Hats collection-block-->
+            <div class="position-relative bg-white custom-rounded swiper-slide flare-hats_block" data-aos="flip-right">
+              <div class="col-sm-7 position-relative mx-auto p-5 icon-place">
+                <div class="position-absolute rounded-circle">                                         <!--css manipulation-->
+                  
+                </div>
+              </div>
+              <h3 class="text-white custom-bg-black text-center p-3 p-sm-2">FLARE HATS</h3>
+              <div class="position-relative text-secondary p-4 mx-4 mt-5 mb-0 m-sm-3"> 
+                <p>
+                  <span class="font-weight-bold text-dark">Flat Fashion:</span> <br>
+                  Summer Dress
+                </p>
+                <p>
+                  <span class="font-weight-bold text-dark">Apparel Category:</span> <br>
+                  Womenswear
+                </p>
+                <p class="test_lines">
+                  <span class="font-weight-bold text-dark">Style Description:</span>
+                  features front and back views of a fitted strapless style top, summer dress with two gathered pouch pockets
+                  and self fabric sash belt. <span class="custom-color-pink p-0 btn btn-link">  See more ...  </span>
+                </p>
+  
+                <div class="col-2 col-sm-1 p-4 position-absolute rounded-circle logo-black">                                          <!--css manipulation-->
+                </div>
               </div>
             </div>
-            <h3 class="text-white custom-bg-black text-center p-3 p-sm-2">FLARE HATS</h3>
-            <div class="position-relative text-secondary p-4 mx-4 mt-5 mb-0 m-sm-3"> 
-              <p>
-                <span class="font-weight-bold text-dark">Flat Fashion:</span> <br>
-                Summer Dress
-              </p>
-              <p>
-                <span class="font-weight-bold text-dark">Apparel Category:</span> <br>
-                Womenswear
-              </p>
-              <p class="test_lines">
-                <span class="font-weight-bold text-dark">Style Description:</span>
-                features front and back views of a fitted strapless style top, summer dress with two gathered pouch pockets
-                and self fabric sash belt. <span class="custom-color-pink p-0 btn btn-link">  See more ...  </span>
-              </p>
-
-              <div class="col-2 col-sm-1 p-4 position-absolute rounded-circle logo-black">                                          <!--css manipulation-->
+            <!--end Flare Hats collection-block-->
+  
+            <!--Weddings Gowns collection-block-->
+            <div class="position-relative bg-white custom-rounded swiper-slide weddings-gowns_block" data-aos="flip-right">
+              <div class="col-7 position-relative mx-auto p-5 icon-place">
+                <div class="position-absolute rounded-circle">                                         <!--css manipulation-->
+                  
+                </div>
+              </div>
+              <h3 class="text-white custom-bg-pink text-center p-3 p-sm-2">WEDDINGS GOWNS</h3>
+              <div class="position-relative text-secondary p-4 mx-4 mt-5 mb-0 m-sm-3">
+                <p>
+                  <span class="font-weight-bold text-dark">Flat Fashion:</span> <br>
+                  Summer Dress
+                </p>
+                <p>
+                  <span class="font-weight-bold text-dark">Apparel Category:</span> <br>
+                  Womenswear
+                </p>
+                <p>
+                  <span class="font-weight-bold text-dark">Style Description:</span>
+                  features front and back views of a fitted strapless style top, summer dress with two gathered pouch pockets
+                  and self fabric sash belt. <span class="custom-color-pink p-0 btn btn-link">  See more ...  </span>
+                </p>
+  
+                <div class="col-2 col-sm-1 p-4 position-absolute rounded-circle logo-pink">                                           <!--css manipulation-->
+                </div>
               </div>
             </div>
+            <!--Weddings Gowns collection-block-->
+  
+            <!--Casual Wears collection-block-->
+            <div class="position-relative bg-white custom-rounded swiper-slide casual-wears_block" data-aos="flip-right">
+              <div class="col-7 position-relative mx-auto p-5 icon-place">
+                <div class="position-absolute rounded-circle">                                         <!--css manipulation-->
+                  
+                </div>
+              </div>
+              <h3 class="text-white custom-bg-black text-center p-3 p-sm-2">CASUAL WEARS</h3>
+              <div class="position-relative text-secondary p-4 mx-4 mt-5 mb-0 m-sm-3">
+                <p>
+                  <span class="font-weight-bold text-dark">Flat Fashion:</span> <br>
+                  Summer Dress
+                </p>
+                <p>
+                  <span class="font-weight-bold text-dark">Apparel Category:</span> <br>
+                  Womenswear
+                </p>
+                <p>
+                  <span class="font-weight-bold text-dark">Style Description:</span>
+                  features front and back views of a fitted strapless style top, summer dress with two gathered pouch pockets
+                  and self fabric sash belt. <span class="custom-color-pink p-0 btn btn-link">  See more ...  </span>
+                </p>
+  
+                <div class="col-2 col-sm-1 p-4 position-absolute rounded-circle logo-black">                                           <!--css manipulation-->
+                </div>
+              </div>
+            </div>
+            <!--end Casual Wears collection-block-->
           </div>
-          <!--end Flare Hats collection-block-->
-
-          <!--Weddings Gowns collection-block-->
-          <div class="mx-5 m-sm-3 position-relative bg-white custom-rounded" id="weddings-gowns_block" data-aos="flip-right">
-            <div class="col-7 position-relative mx-auto p-5 icon-place">
-              <div class="position-absolute rounded-circle">                                         <!--css manipulation-->
-                
-              </div>
-            </div>
-            <h3 class="text-white custom-bg-pink text-center p-3 p-sm-2">WEDDINGS GOWNS</h3>
-            <div class="position-relative text-secondary p-4 mx-4 mt-5 mb-0 m-sm-3">
-              <p>
-                <span class="font-weight-bold text-dark">Flat Fashion:</span> <br>
-                Summer Dress
-              </p>
-              <p>
-                <span class="font-weight-bold text-dark">Apparel Category:</span> <br>
-                Womenswear
-              </p>
-              <p>
-                <span class="font-weight-bold text-dark">Style Description:</span>
-                features front and back views of a fitted strapless style top, summer dress with two gathered pouch pockets
-                and self fabric sash belt. <span class="custom-color-pink p-0 btn btn-link">  See more ...  </span>
-              </p>
-
-              <div class="col-2 col-sm-1 p-4 position-absolute rounded-circle logo-pink">                                           <!--css manipulation-->
-              </div>
-            </div>
-          </div>
-          <!--Weddings Gowns collection-block-->
-
-          <!--Casual Wears collection-block-->
-          <div class="mx-5 m-sm-3 position-relative bg-white custom-rounded" id="casual-wears_block" data-aos="flip-right">
-            <div class="col-7 position-relative mx-auto p-5 icon-place">
-              <div class="position-absolute rounded-circle">                                         <!--css manipulation-->
-                
-              </div>
-            </div>
-            <h3 class="text-white custom-bg-black text-center p-3 p-sm-2">CASUAL WEARS</h3>
-            <div class="position-relative text-secondary p-4 mx-4 mt-5 mb-0 m-sm-3">
-              <p>
-                <span class="font-weight-bold text-dark">Flat Fashion:</span> <br>
-                Summer Dress
-              </p>
-              <p>
-                <span class="font-weight-bold text-dark">Apparel Category:</span> <br>
-                Womenswear
-              </p>
-              <p>
-                <span class="font-weight-bold text-dark">Style Description:</span>
-                features front and back views of a fitted strapless style top, summer dress with two gathered pouch pockets
-                and self fabric sash belt. <span class="custom-color-pink p-0 btn btn-link">  See more ...  </span>
-              </p>
-
-              <div class="col-2 col-sm-1 p-4 position-absolute rounded-circle logo-black">                                           <!--css manipulation-->
-              </div>
-            </div>
-          </div>
-          <!--end Casual Wears collection-block-->
         </div>
-        <div class="d-flex align-items-center pl-sm-2 pr-sm-3">
-          <button class="btn btn-outline-dark border-0 p-0 rounded-circle text-white m-auto" id="arrow-collection">
-            <svg width="3em" height="3em" viewBox="0 0 16 16" class="d-none d-sm-block  bi bi-arrow-right-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+
+
+
+        <!--control button common to the 02 sliders-->
+        <div class="d-flex flex-row flex-sm-column justify-content-center align-items-center pl-sm-2 pr-sm-3">
+          <button class="custom-swiper-button-next btn btn-outline-dark p-0 rounded-circle text-white my-1 arrow-collection">
+            <svg width="2.8em" height="2.8em" viewBox="0 0 16 16" class="bi bi-arrow-right-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
               <path fill-rule="evenodd" d="M7.646 11.354a.5.5 0 0 1 0-.708L10.293 8 7.646 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0z"/>
               <path fill-rule="evenodd" d="M4.5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5z"/>
             </svg>
-            
-            <svg width="3em" height="3em" viewBox="0 0 16 16" class="d-sm-none bi bi-arrow-down-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          </button>
+
+          <button class="custom-swiper-button-prev btn btn-outline-dark p-0 rounded-circle text-white my-1 arrow-collection">
+            <svg width="2.8em" height="2.8em" viewBox="0 0 16 16" class="bi bi-arrow-left-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-              <path fill-rule="evenodd" d="M4.646 7.646a.5.5 0 0 1 .708 0L8 10.293l2.646-2.647a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708z"/>
-              <path fill-rule="evenodd" d="M8 4.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5z"/>
+              <path fill-rule="evenodd" d="M8.354 11.354a.5.5 0 0 0 0-.708L5.707 8l2.647-2.646a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708 0z"/>
+              <path fill-rule="evenodd" d="M11.5 8a.5.5 0 0 0-.5-.5H6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5z"/>
             </svg>
           </button>
         </div>
@@ -717,11 +725,12 @@
     <!--AOS library-->
     <script src="./assets/js/aos/aos.js"></script>
 
+    <script src="./assets/js/swiper/swiper.js"></script>
+    
     <!-- Custom JS -->
     <script src="./assets/js/your-js-filename.js"></script>
 
-    
-
+  
     <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>-->
     <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>-->
     <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>-->

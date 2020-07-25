@@ -40,16 +40,16 @@ html, body {
   align-items: center;
 }
 
-.bi-arrow-right, #arrow-collection {
+.bi-arrow-right, .arrow-collection {
   cursor: pointer;
-  animation: ease-in-out 500ms infinite alternate va_vient;
+  animation: ease-in-out 500ms infinite alternate va-vient-x;
 }
 
-.bi-arrow-right:hover, #arrow-collection:hover {
+.bi-arrow-right:hover, .arrow-collection:hover {
   animation-play-state: paused; 
 }
 
-@keyframes va_vient {
+@keyframes va-vient-x {
   from {
 
   }
@@ -164,19 +164,19 @@ html, body {
 }
 
 /*Background icon-image block flare-hats*/
-#collection #flare-hats_block .icon-place div {
+#collection .flare-hats_block .icon-place div {
   background: url("../images/flare-hats.png") center no-repeat border-box;
   background-size: cover;
 }
 
 /*Background icon-image block weddings-gowns*/
-#collection #weddings-gowns_block .icon-place div {
+#collection .weddings-gowns_block .icon-place div {
   background: url("../images/weddings-gowns.png") center no-repeat border-box;
   background-size: contain;
 }
 
 /*Background icon-image block casual-wears*/
-#collection #casual-wears_block .icon-place div {
+#collection .casual-wears_block .icon-place div {
   background: url("../images/casual-wears.png") center no-repeat border-box;
   background-size: contain;
 }
@@ -402,15 +402,9 @@ html, body {
     width: 35%;
   }
 
-  #flare-hats_block {
-    margin-top: 10%;
-  }
+  
 
-  #weddings-gowns_block {
-    
-    margin-top: 30%;
-    margin-bottom: 30%;
-  }
+
   /*end section collection*/
 
   /*Section Sketch-projects*/
@@ -436,22 +430,24 @@ html, body {
   /*end Section Home*/
 
   /*Section Collection*/
-  #arrow-collection {
-    animation: ease-in-out 500ms infinite alternate va_vient-sm;
+  .arrow-collection {
+    animation: ease-in-out 500ms infinite alternate va_vient-y;
   }
   
-  #arrow-collection:hover {
+  .arrow-collection:hover {
     animation-play-state: paused; 
   }
   
-  @keyframes va_vient-sm {
+  @keyframes va_vient-y {
     from {
-  
+      transform: rotate(90deg);
     }
     to {
-      transform: translateY(1em);
+      transform: translateY(1em) rotate(90deg);
     }
   }
+
+  /*end Section Collection*/
 
   @media (max-width: 375.98px) {
     /*Section collection*/
@@ -460,9 +456,6 @@ html, body {
       bottom: 15px;
     }
   
-    #flare-hats_block {
-      margin-top: -10%;
-    }
     /*end section collection*/
 
     /*Section Sketch-projects*/
